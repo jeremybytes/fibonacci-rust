@@ -1,9 +1,9 @@
 fn main() {
-    println!("Fibonacci 1st = {}", fib(1));
-    println!("Fibonacci 2nd = {}", fib(2));
-    println!("Fibonacci 3rd = {}", fib(3));
-    println!("Fibonacci 4th = {}", fib(4));
-    println!("Fibonacci 5th = {}", fib(5));
+    let nths = [1, 2, 3, 4, 5];
+
+    for nth in nths {
+        println!("Fibonacci {} = {}", nth, fib(nth));
+    }
 }
 
 fn fib(n: u8) -> u64 {
