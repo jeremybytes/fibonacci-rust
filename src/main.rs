@@ -1,5 +1,5 @@
 fn main() {
-    let nths = [1, 2, 3, 4, 5];
+    let nths = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
     for nth in nths {
         println!("Fibonacci {} = {}", nth, fib(nth));
