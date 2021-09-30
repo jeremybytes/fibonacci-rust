@@ -11,7 +11,11 @@ I used this project (calculating Fibonacci numbers) to explore a bit with Rust. 
 * ```.expect``` with Result
 * Pattern matching on Result
 
-An upcoming article will walk through using these while building the application. Intermediate steps are saved with the branches of the repository: 
+An article walks through using these while building the application:  
+
+**[Coding Practice: Learning Rust with Fibonacci Numbers](https://jeremybytes.blogspot.com/2021/09/coding-practice-learning-rust-with.html)**
+
+Intermediate steps are saved with the branches of the repository: 
 
 * 01-creation  
 Project state after ```cargo new fib```.
