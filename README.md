@@ -8,7 +8,7 @@ I used this project (calculating Fibonacci numbers) to explore a bit with Rust. 
 * Option enum (returned from ```checked_add```)
 * Pattern matching on Option
 * Result enum (to return error rather than panic)
-* ```.expects``` with Result
+* ```.expect``` with Result
 * Pattern matching on Result
 
 An upcoming article will walk through using these while building the application. Intermediate steps are saved with the branches of the repository: 
